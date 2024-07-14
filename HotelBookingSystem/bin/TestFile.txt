@@ -1,0 +1,9 @@
+User=Member,ExclReward=true,VIPRooms=0,DeluxeRooms=10,StandardRooms=0,ExpectedResult=deluxe
+User=Member,ExclReward=true,VIPRooms=0,DeluxeRooms=10,StandardRooms=0,ExpectedResult=true
+User=Member,ExclReward=true,VIPRooms=1,DeluxeRooms=10,StandardRooms=0,ExpectedResult=vipdeluxe
+User=Member,ExclReward=true,VIPRooms=1,DeluxeRooms=10,StandardRooms=0,ExpectedResult=false
+User=Member,ExclReward=false,VIPRooms=1,DeluxeRooms=10,StandardRooms=0,ExpectedResult=none
+User=Member,ExclReward=false,VIPRooms=0,DeluxeRooms=10,StandardRooms=0,ExpectedResult=deluxe
+User=Member,ExclReward=false,VIPRooms=0,DeluxeRooms=0,StandardRooms=10,ExpectedResult=standard
+User=Member,ExclReward=false,VIPRooms=0,DeluxeRooms=0,StandardRooms=0,ExpectedResult=none
+User=Member,ExclReward=false,VIPRooms=0,DeluxeRooms=0,StandardRooms=0,ExpectedResult=member_waiting_list
